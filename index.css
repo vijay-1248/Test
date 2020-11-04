@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    width: 30%;
+    height:15rem;
+    background-color: rgba(128, 128, 128, 0.281);
+    transform: translate(100%,80%);
+    box-shadow: 0 0 7px 1px;
+}
+.profile{
+    width: 160px;
+    height:10rem;
+    background-color: rgba(128, 128, 128, 0.158);
+    background: url('./SVG/user.svg') ;
+    background-size: cover;
+    margin-top: 34px;
+    /* box-shadow: 5px 10px  15px 1px rgba(124, 2, 53, 0.315); */
+}
+.profilePic{
+    fill : rgb(36, 18, 18);
+    opacity:.5;
+    /* margin-top: -30px; */
+   
+}
+.content{
+    width: 66%;
+
+    background-color: rgba(249, 249, 250, 0.356);
+}
